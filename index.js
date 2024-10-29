@@ -43,9 +43,10 @@ const uppercasedNames= names.map(name=> name.toUpperCase());
  */
 function getItemById(items, id) {
   // TODO: use `find`
+
   id.find(
     (id) => {
-    return items
+    return items;
 console.log(id.items)
   })
 
